@@ -31,8 +31,8 @@ The server automatically detects the model type from the graph directory. Curren
    bash Miniconda3-latest-Linux-x86_64.sh
    
    # Create conda environment
-   conda create -n myenv python=3.11
-   conda activate myenv
+   conda create -n xdl_openai python=3.11
+   conda activate xdl_openai
    ```
 
 2. **Install Dependencies**
@@ -54,6 +54,8 @@ The server automatically detects the model type from the graph directory. Curren
 
 ### Required RPP Components
 
+1. **SDK** 
+azurengine_sw_v1.6.12.3_x86_Ubuntu.run
 
 ## Quick Start
 
@@ -113,12 +115,12 @@ The client example demonstrates:
 ```bash
 # Basic usage with image and prompt
 python rpp_openai_vl_client.py \
-    --image ./images/example.jpg \
+    --image ./images/man-9581593_640.jpg \
     --prompt "Describe this image"
 
 # Streaming response
 python rpp_openai_vl_client.py \
-    --image ./images/example.jpg \
+    --image ./images/man-9581593_640.jpg \
     --prompt "What's in this image?" \
     --stream
 
@@ -129,7 +131,7 @@ python rpp_openai_vl_client.py \
 
 # Use file path directly (if server has file access)
 python rpp_openai_vl_client.py \
-    --image ./images/example.jpg \
+    --image ./images/man-9581593_640.jpg \
     --prompt "Describe this image" \
     --use-file-path
 ```
