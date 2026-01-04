@@ -136,6 +136,7 @@ python rpp_openai_vl_client.py \
     --use-file-path
 ```
 ![test_image](./images/man-9581593_640.jpg)
+
 **Response**
     * The image shows a person relaxing outdoors by the side of a body of water, possibly a lake or river. The individual is lying on their back on a blanket spread out on the grass near a tree trunk. They are wearing glasses and an orange-striped shirt paired with dark shorts. The person has a book open in front of them, suggesting they might be reading. There's also a water bottle placed nearby for refreshment. The setting appears peaceful and sunny, ideal for leisurely activities like reading or simply enjoying nature.
 
