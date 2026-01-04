@@ -1,0 +1,15 @@
+[
+    {
+        "role": "user",
+        "content": 
+        [
+            {
+                "type": "image",
+                "image": "./images/demo.jpeg",
+                "resized_width": 640,
+                "resized_height": 427
+            },
+            {"type": "text", "text": "Describe this image."}
+        ]
+    }
+]
